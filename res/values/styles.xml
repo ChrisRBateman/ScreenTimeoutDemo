@@ -1,0 +1,31 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="CustomShowcaseTheme" parent="ShowcaseView">
+    	<item name="sv_titleTextColor">#33B5E5</item>
+        <item name="sv_detailTextColor">#FFFFFF</item>
+        <item name="sv_backgroundColor">#dd000000</item>
+        <item name="sv_buttonText">@string/next_text</item>
+  	</style>
+
+  	<style name="NewAppTheme" parent="android:Theme">
+    	<item name="showcaseViewStyle">@style/CustomShowcaseTheme</item>
+  	</style>
+
+</resources>
