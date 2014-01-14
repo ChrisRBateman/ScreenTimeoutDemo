@@ -16,7 +16,7 @@ app is found.
 
 I've also added a mini tutorial using the ShowcaseView library. You'll need to 
 include this library if you want to build and run the demo. More information can 
-be found about ShowcaseView at http://espiandev.github.io/ShowcaseView/.
+be found about ShowcaseView at https://github.com/amlcurran/ShowcaseView.
 
 I added a PreferenceActivity class to give the user the ability to set the timeout 
 length.
